@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kalkfull.css">
+   
+</head>
+<body>
+    <section id="calculator">
+        <input id="display" readonly>
+        <section>
+            <button onclick="displayCharacters('7')">7</button>
+            <button onclick="displayCharacters('8')">8</button>
+            <button onclick="displayCharacters('9')">9</button>
+            <button onclick="displayCharacters('+')" class="operatorColor">+</button>
+        </section>
+        
+        <section>
+            <button onclick="displayCharacters('4')">4</button>
+            <button onclick="displayCharacters('5')">5</button>
+            <button onclick="displayCharacters('6')">6</button>
+            <button onclick="displayCharacters('-')" class="operatorColor">-</button>
+        </section>
+
+        <section>
+            <button onclick="displayCharacters('1')">1</button>
+            <button onclick="displayCharacters('2')">2</button>
+            <button onclick="displayCharacters('3')">3</button>
+            <button onclick="displayCharacters('*')" class="operatorColor">*</button>
+        </section>
+        <section>
+            <button onclick="displayCharacters('.')">.</button>
+            <button onclick="displayCharacters('0')">0</button>
+            <button onclick="deleteAll()">C</button>
+            <button onclick="displayCharacters('/')" class="operatorColor">/</button>
+        </section>
+       <button onclick="calculate()" id="equal" class="operatorColor">=</button>
+    </section>
+
+
+<script src="kalkfull.js"></script>    
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="kalk1.js"></script>
+    
+</head>
+<body>
+<form action="kalk1.js" method="post">
+    <Legend><b><h3>Proszę wybrać jedną z opcji:</h3></b></Legend>
+    <label for="dodawanie"> Dodać</label><input type="radio" id="dodawanie" name="przycisk"> <br>
+    <label for="odejmowanie"> Odjąć</label><input type="radio" id="odejmowanie" name="przycisk"> <br>
+    <label for="mnozenie"> Pomnożyć</label><input type="radio" id="mnozenie" name="przycisk"> <br>
+    <label for="dzielenie"> Podzielić</label><input type="radio" id="dzielenie" name="przycisk"> <br>
+    <label for="potegowanie"> Potęga</label><input type="radio" id="potegowanie" name="przycisk"> <br>
+    <label for="pierwiastkowanie"> Pierwiastek (2 stopnia)</label><input type="radio" id="pierwiastkowanie" name="przycisk"> <br>
+    <input type="number" id="1liczba"> <input type="number" id="2liczba">
+    <input type="button" value="Wykonaj" id="wykonaj" onclick="Kalkulator()">
+    <p id="wynik"></p>
+    
+</form>
+
+</body>
+</html>
